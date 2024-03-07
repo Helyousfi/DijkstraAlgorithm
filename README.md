@@ -13,10 +13,10 @@ Dijkstra's algorithm is a widely used algorithm in graph theory for finding the 
 To use this project, include the provided C code in your project and call the necessary functions as demonstrated in the example below.
 
 ## Functions
-void initialize_graph(struct Graph* graph, int vertices): Initializes a graph with a specified number of vertices.
+- void initialize_graph(struct Graph* graph, int vertices): Initializes a graph with a specified number of vertices.
 
-void add_vertex(struct Graph* graph, int source, int destination, int weight): Adds a weighted edge between two vertices in the graph.
+- void add_vertex(struct Graph* graph, int source, int destination, int weight): Adds a weighted edge between two vertices in the graph.
 
-void dijkstraAlgorithm(const struct Graph* graph, int source): Finds the shortest paths from a specified source vertex to all other vertices using Dijkstra's algorithm.
+- void dijkstraAlgorithm(const struct Graph* graph, int source): Finds the shortest paths from a specified source vertex to all other vertices using Dijkstra's algorithm.
 
-void print_dijkstra(int dist[]): Prints the calculated distances from the source vertex to all other vertices.
+- void print_dijkstra(int dist[]): Prints the calculated distances from the source vertex to all other vertices.
