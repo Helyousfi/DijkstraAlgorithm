@@ -5,6 +5,7 @@ This project implements Dijkstra's shortest path algorithm in C for finding the 
 - Introduction
 - Usage
 - Functions
+- Example
 
 ## Introduction
 Dijkstra's algorithm is a widely used algorithm in graph theory for finding the shortest path between nodes in a graph with non-negative edge weights. This project provides a simple C implementation of Dijkstra's algorithm.
