@@ -20,3 +20,26 @@ To use this project, include the provided C code in your project and call the ne
 - void dijkstraAlgorithm(const struct Graph* graph, int source): Finds the shortest paths from a specified source vertex to all other vertices using Dijkstra's algorithm.
 
 - void print_dijkstra(int dist[]): Prints the calculated distances from the source vertex to all other vertices.
+
+## Example 
+
+#include <stdio.h>
+
+// Include the Dijkstra's algorithm code here...
+```
+int main()
+{
+    struct Graph G;
+    initialize_graph(&G, V);
+    add_vertex(&G, 0, 1, 1);
+    add_vertex(&G, 1, 3, 1);
+    add_vertex(&G, 0, 2, 5);
+    add_vertex(&G, 2, 3, 1);
+    add_vertex(&G, 0, 4, 3);
+    add_vertex(&G, 4, 5, 1);
+    add_vertex(&G, 2, 5, 2);
+
+    dijkstraAlgorithm(&G, 0);
+    
+    return 0;
+}```
