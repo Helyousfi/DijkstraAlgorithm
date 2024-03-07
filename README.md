@@ -22,11 +22,11 @@ To use this project, include the provided C code in your project and call the ne
 - void print_dijkstra(int dist[]): Prints the calculated distances from the source vertex to all other vertices.
 
 ## Example 
-
+```
 #include <stdio.h>
 
 // Include the Dijkstra's algorithm code here...
-```
+
 int main()
 {
     struct Graph G;
