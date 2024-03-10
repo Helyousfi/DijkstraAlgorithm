@@ -1,5 +1,5 @@
 # Dijkstra's Shortest Path Algorithm
-This project implements Dijkstra's shortest path algorithm in C for finding the shortest paths from a source vertex to all other vertices in a weighted graph. The code includes functions to create and initialize a graph, add vertices with weights, and perform Dijkstra's algorithm to find the shortest paths.
+This project implements Dijkstra's shortest path algorithm in C and C++ for finding the shortest paths from a source vertex to all other vertices in a weighted graph. The code includes functions to create and initialize a graph, add vertices with weights, and perform Dijkstra's algorithm to find the shortest paths.
 
 # Table of Contents
 - Introduction
@@ -8,10 +8,11 @@ This project implements Dijkstra's shortest path algorithm in C for finding the 
 - Example
 
 ## Introduction
-Dijkstra's algorithm is a widely used algorithm in graph theory for finding the shortest path between nodes in a graph with non-negative edge weights. This project provides a simple C implementation of Dijkstra's algorithm.
+Dijkstra's algorithm is a widely used algorithm in graph theory for finding the shortest path between nodes in a graph with non-negative edge weights.
+This project provides a simple C and C++ implementation of Dijkstra's algorithm.
 
 ## Usage
-To use this project, include the provided C code in your project and call the necessary functions as demonstrated in the example below.
+To use this project, include the provided C or C++ code in your project and call the necessary functions as demonstrated in the example below.
 
 ## Functions
 - void initialize_graph(struct Graph* graph, int vertices): Initializes a graph with a specified number of vertices.
@@ -23,7 +24,7 @@ To use this project, include the provided C code in your project and call the ne
 - void print_dijkstra(int dist[]): Prints the calculated distances from the source vertex to all other vertices.
 
 ## Example 
-```
+```C
 #include <stdio.h>
 
 // Include the Dijkstra's algorithm code here...
@@ -44,3 +45,4 @@ int main()
     
     return 0;
 }
+```
