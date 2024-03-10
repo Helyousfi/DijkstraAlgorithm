@@ -1,0 +1,41 @@
+# Ignore object files and executables
+*.o
+*.out
+*.exe
+
+# Ignore compiled libraries
+*.dll
+*.so
+*.dylib
+
+# Ignore generated files
+*.log
+*.tar.gz
+
+# Ignore build directories
+/build/
+/bin/
+
+# Ignore dependency files
+*.d
+
+# Ignore editor backup files
+*~
+*.swp
+*.swo
+
+# Ignore generated documentation
+/doc/
+
+# Ignore IDE files
+.vscode/
+*.suo
+*.user
+*.sln
+*.sdf
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Windows specific files
+Thumbs.db
